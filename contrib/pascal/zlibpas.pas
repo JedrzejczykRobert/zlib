@@ -11,7 +11,7 @@ interface
 
 const
   ZLIB_VERSION = '1.2.12';
-  ZLIB_VERNUM  = $12a0;
+  ZLIB_VERNUM  = $12c0;
 
 type
   alloc_func = function(opaque: Pointer; items, size: Integer): Pointer;
